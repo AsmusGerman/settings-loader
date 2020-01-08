@@ -1,0 +1,9 @@
+<ng-container *ngIf="!!settings">
+  <h1
+    [style.color]="settings.color"
+    [style.font-weight]="settings.bold ? 700 : 400"
+    [style.font-style]="settings.italic ? 'italic' : 'normal'"
+  >
+    {{ settings.title }}
+  </h1>
+</ng-container>

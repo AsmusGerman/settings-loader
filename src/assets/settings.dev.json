@@ -1,0 +1,6 @@
+{
+    "title": "this title was loaded from settings.json",
+    "color": "#4287f5",
+    "bold": false,
+    "italic": true
+}
